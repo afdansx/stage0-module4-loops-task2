@@ -8,9 +8,9 @@ class EvenNumbersPrinterTest extends BaseIOTest {
     void printEvenNumbersPrinterPrintsTill9() {
         EvenNumbersPrinter evenNumbersPrinter = new EvenNumbersPrinter();
 
-        evenNumbersPrinter.printEvenNumbers(9);
+        evenNumbersPrinter.printEvenNumbers(10);
 
-        assertOutEquals("0\n2\n4\n6\n8\n");
+        assertOutEquals("0\n2\n4\n6\n8\n10\n");
     }
 
     @Test
